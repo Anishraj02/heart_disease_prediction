@@ -4,3 +4,6 @@ __pycache__/
 *.joblib
 *.pkl
 *.csv
+!final_calibrated_model.joblib
+!final_svm_model.joblib
+!model_meta.joblib
