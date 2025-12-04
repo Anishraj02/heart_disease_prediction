@@ -56,16 +56,16 @@ requirements.txt, README.md, and sample test files
 ```
 DataScience_projects/
 │
-├── app.py # Streamlit web application
-├── batch_predict.py # Batch prediction script for CSV scoring
-├── final_calibrated_model.joblib # Final calibrated SVM model (deployed)
-├── model_meta.joblib # Metadata: columns, dtypes, threshold
-├── heart_dp.ipynb # Full notebook: EDA, training, calibration
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
+├── app.py                          # Streamlit web application
+├── batch_predict.py                # Batch prediction script for CSV scoring
+├── final_calibrated_model.joblib   # Final calibrated SVM model (deployed)
+├── model_meta.joblib               # Metadata: columns, dtypes, threshold
+├── heart_dp.ipynb                  # Full notebook: EDA, training, calibration
+├── requirements.txt                # Python dependencies
+├── README.md                       # Project documentation
 │
-├── test_input.csv # Sample input for batch predictions
-└── test_output.csv # Sample model output
+├── test_input.csv                  # Sample input for batch predictions
+└── test_output.csv                 # Sample model output
 ```
 
 🚀 How to Run Locally:
