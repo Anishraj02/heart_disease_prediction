@@ -52,12 +52,13 @@ requirements.txt, README.md, and sample test files
 ![Threshold Slider](images/threshold_slider.png)
 
 📂 Project Structure:
+
 DataScience_projects/
 │
 ├── app.py # Streamlit web application
-├── batch_predict.py # Batch prediction script for CSV files
-├── final_calibrated_model.joblib # Final ML model (preprocessed + calibrated)
-├── model_meta.joblib # Training metadata (cols, dtypes, threshold)
+├── batch_predict.py # Batch prediction script for CSV scoring
+├── final_calibrated_model.joblib # Final calibrated SVM model (deployed)
+├── model_meta.joblib # Metadata: columns, dtypes, threshold
 ├── heart_dp.ipynb # Full notebook: EDA, training, calibration
 ├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
@@ -66,6 +67,7 @@ DataScience_projects/
 └── test_output.csv # Sample model output
 
 🚀 How to Run Locally:
+
 1️⃣ Create & activate a virtual environment
 python -m venv venv
 source venv/bin/activate # Windows: venv\Scripts\activate
