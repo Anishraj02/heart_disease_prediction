@@ -78,15 +78,29 @@ streamlit run app.py
 
 Now open → http://localhost:8501
 
-📊 Model Overview:
+## 📊 Model Performance & Overview
+
+The final **Calibrated SVM Classifier** achieved strong predictive performance:
+
+| Metric                  | Score    |
+| ----------------------- | -------- |
+| **Accuracy**            | **92%**  |
+| **Precision (Disease)** | **0.94** |
+| **Recall (Disease)**    | **0.90** |
+| **F1-Score (Disease)**  | **0.92** |
+| **AUC-ROC**             | **0.95** |
+
+🔍 Model Details
 
 Algorithm: Support Vector Machine (SVC)
 Hyperparameter tuning: GridSearchCV / RandomizedSearchCV
-Probability calibration: Sigmoid method using CalibratedClassifierCV
-Why calibration?
-SVM decision function outputs are not true probabilities. Calibration ensures outputs reflect real risk levels.
 
-🧪 Sample Inputs for Testing:
+Calibration: Sigmoid method using CalibratedClassifierCV
+
+Why calibration?
+SVM decision values are not probabilities. Calibration ensures the output reflects true clinical-style risk levels.
+
+🧪 Model Test Cases & Validation
 
 Below are example test cases you can enter into the UI to validate predictions.
 
