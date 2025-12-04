@@ -94,7 +94,7 @@ The final **Calibrated SVM Classifier** achieved strong predictive performance:
 | **F1-Score (Disease)**  | **0.92** |
 | **AUC-ROC**             | **0.95** |
 
-🔍 Model Details
+### 🔍 Model Details
 
 Algorithm: Support Vector Machine (SVC)
 Hyperparameter tuning: GridSearchCV / RandomizedSearchCV
@@ -104,7 +104,7 @@ Calibration: Sigmoid method using CalibratedClassifierCV
 Why calibration?
 SVM decision values are not probabilities. Calibration ensures the output reflects true clinical-style risk levels.
 
-🧪 Model Test Cases & Validation
+### 🧪 Model Test Cases & Validation
 
 Below are example test cases you can enter into the UI to validate predictions.
 
@@ -155,14 +155,14 @@ processed features
 
 For academic submission, include:
 
-heart_dp.ipynb + PDF export
-app.py
-batch_predict.py
-final_calibrated_model.joblib
-model_meta.joblib
-This README.md
+**heart_dp.ipynb** + PDF export
+**app.py**
+**batch_predict.py**
+**final_calibrated_model.joblib**
+**model_meta.joblib**
+**README.md**
 
-📚 Technologies Used
+### 📚 Technologies Used
 
 Python
 Scikit-Learn
@@ -171,10 +171,10 @@ Streamlit
 Matplotlib / Seaborn
 Joblib
 
-👨‍💻 Author
+### 👨‍💻 Author
 
-K B Anishraj
-ML Enthusiast
-Email: anishraj.klb@gmail.com
+**K B Anishraj**  
+ML Enthusiast  
+📧 Email: [anishraj.klb@gmail.com](mailto:anishraj.klb@gmail.com)
 
 ⭐ If you like this project and want more ML apps—star the repo!
