@@ -151,17 +151,6 @@ processed features
 5. Select branch main and file app.py
 6. Deploy
 
-📘 Files for Submission
-
-For academic submission, include:
-
-**heart_dp.ipynb** + PDF export
-**app.py**
-**batch_predict.py**
-**final_calibrated_model.joblib**
-**model_meta.joblib**
-**README.md**
-
 ### 📚 Technologies Used
 
 Python
