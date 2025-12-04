@@ -51,7 +51,7 @@ requirements.txt, README.md, and sample test files
 
 ![Threshold Slider](images/threshold_slider.png)
 
-📂 Project Structure:
+## 📂 Project Structure:
 
 DataScience_projects/
 │
