@@ -53,6 +53,7 @@ requirements.txt, README.md, and sample test files
 
 ## 📂 Project Structure:
 
+```
 DataScience_projects/
 │
 ├── app.py # Streamlit web application
@@ -65,6 +66,7 @@ DataScience_projects/
 │
 ├── test_input.csv # Sample input for batch predictions
 └── test_output.csv # Sample model output
+```
 
 🚀 How to Run Locally:
 
